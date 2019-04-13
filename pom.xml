@@ -10,13 +10,14 @@
         <version>1.5.0.RELEASE</version>
     </parent>
 
+
+
     <dependencies>
-    
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        
+        <!-- 添加bootstrap依赖和jquery、thymeleaf -->
         <dependency>  
 		    <groupId>org.webjars</groupId>  
 		    <artifactId>bootstrap</artifactId>  
@@ -43,7 +44,7 @@
 		<dependency>
 		 <groupId>com.oracle</groupId>
 		 <artifactId>ojdbc6</artifactId>
-		 <version>11.2.0</version>
+		 <version>11.2.0.3</version>
 		</dependency>
 		
 		

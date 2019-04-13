@@ -24,11 +24,10 @@ public class UserController {
         return back;
     }
     
-    @ResponseBody
-    @RequestMapping(value = "/index")
+    @RequestMapping(value = "/index1")
     public ModelAndView index() {
     	ModelAndView model = new ModelAndView();
-    	model.setViewName("html/Index");
+    	model.setViewName("index");
         return model;
     }
 
